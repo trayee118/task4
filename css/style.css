@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header{
+    background-image: url(../image/1.png);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+.container{
+    margin: auto;
+    width: 1140px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.left{
+    margin: 14px 0 0 0;
+    
+}
+.left h5{
+    font-family: 'Montserrat';
+    color: white;
+}
+.left h6{
+    font-family: 'Montserrat';
+    color: white;
+}
+.right ul li {
+     display: inline-block;
+     margin: 14px 0px 0px 0px;
+}
+.right ul li a{
+    color: white;
+    padding:0px 14px 0px 0px ;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+.right  button{
+     font-family: 'Montserrat';
+     padding: 7px 15px;
+     border: 1.3px solid white;
+     border-radius: 15px;
+     background: transparent;
+     color: white;
+     cursor: pointer;
+     font-weight: 600;
+
+}
+.header-contents{
+    margin-top: 180px;
+    text-align: center;
+}
+.header-contents h3{
+    font-family: 'Farro';
+    font-style: italic;
+    color: white;
+    padding-bottom: 14px;
+}
+.header-contents h1{
+    font-family: 'Poppins';
+    font-size: 48px;
+    color: white;
+    
+}
+.header-contents  button{
+    background-color: #EE2A58;
+    border: 1.5px solid transparent;
+    border-radius: 30px ;
+    color: white;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 10px 25px;
+    font-size: 12px;
+    margin-top: 15px;
+
+}
+.header-contents button:hover{
+    background-color: black;
+    transition: 0.5s;
+    border: 1px solid transparent;
+    border-radius: 25px;
+
+}
+.upper-body{
+    background-color: #F3F5F9;
+    padding: 30px 0 50px 0;
+    text-align: center;
+    position: relative;
+}
+.upper-body .quote h5{
+    font-family: 'Farro';
+    padding-bottom: 15px;
+    color: black;
+    font-style: oblique;
+}
+.upper-body .quote p{
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.quotation{
+    position: absolute;
+    padding-left: 230px;
+    top: 35px;
+    left: 80px;
+}
+.upper-body .quotation p{
+    font-family: 'Passion One';
+    font-size: 130px;
+    color: white;
+}
+.event{
+    text-align: center;
+}
+.event-contents{
+    font-family: 'Roboto';
+    margin-top: 40px;
+}
+.event-contents h3{
+    color: #000621;
+    margin-bottom: 4px;
+}
+.event-contents hr{
+    border: 1px solid #EE2A58;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 5%;
+}
+.event-gallery{
+    display: flex;
+    margin: 0 250px 50px 250px;
+    justify-content: space-around;
+}
+.event-gallery  h5{ 
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+.event-gallery p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.event-gallery .btn {
+    margin: 15px 0 0 0;
+}
+.event-gallery .btn a{
+    color: #EE2A58;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.lower-body{
+    background-image: url(../image/4.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.lower-right{
+    padding-top: 25%;
+    margin-left: 50%;
+
+}
+.lower-right h1{
+    font-family: 'Roboto';
+    color: white;
+    font-size: 50px;
+
+}
+.lower-right hr{
+    width: 7%;
+    border: 1px solid #EE2A58;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    
+}
+.lower-right p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: white;
+}
+.lower-body-btn{
+    margin-top: 15px;
+}
+.lower-right .lower-body-btn  a{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+.gallery-details{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0 60px 0;
+    padding: 0 240px;
+}
+.gallery-left{
+    width: 30%;
+    padding-right: 14px ;
+}
+.gallery-left h1 {
+    margin-bottom: 5px;
+    color: #000621;
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.gallery-left hr {
+    border: 1px solid #EE2A58;
+    width: 15%;
+    margin-bottom: 15px;
+}
+.gallery-left p {
+    font-size: 15px;
+    font-family: 'Poppins';
+    line-height: 20px;
+    color: #000621;
+}
+.gallery-left a button {
+    background-color: #EE2A58;
+    border: 1px solid transparent;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.gallery-middle{
+    width: 30%;
+}
+.gallery-right{
+    width: 30%;
+}
+.footer {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 13px;
+    line-height: 24px;
+}
